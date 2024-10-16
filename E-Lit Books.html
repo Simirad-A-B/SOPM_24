@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Lit Books</title>
+    <style>
+		body
+		{
+			background-color:  #d3fbbc ;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+        /* Bara Navigatie */
+        .navbar {
+            background-color: #6cce35;
+			text-align: center;
+			background-position: center;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			width: 100%;
+			position: fixed;
+			top: 0;
+			z-index: 1000;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 17px;
+        }
+        .navbar a:hover {
+            background-color: #45a049;
+        }
+		/* Bara Nume Librarie */
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2em;
+            margin-top: 0px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .book-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .book {
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+		.book img {
+            width: 100%;
+            height: auto;
+        }
+        /* Stilizare Sectiune */
+        section {
+            margin: 50px 0;
+        }
+		.about-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .about-content img {
+            width: 40%;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .about-text {
+            flex: 1;
+            max-width: 50%;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Meniu Navigatie -->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">Despre Noi</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Home -->
+    <div id="home" class="header">
+        <h1>E-Lit Books</h1>
+    </div>
+
+    <!-- Carti -->
+    <div class="container">
+        <h2>Carti Disponibile</h2>
+        <div class="book-list">
+            <div class="book">
+                <img src="image1.jpg" alt="Book 1">
+                <h3>Negustorul de carti</h3>
+				<p>Carsten Henn</p>
+            </div>
+            <div class="book">
+                <img src="image2.jpg" alt="Book 2">
+                <h3>Limbajul secret al chipului</h3>
+                <p>Suada Agachi</p>
+            </div>
+            <div class="book">
+                <img src="image3.jpg" alt="Book 3">
+                <h3>Scions: A Starcrossed Novel</h3>
+                <p>Josephine Angelini</p>
+            </div>
+            <div class="book">
+                <img src="image4.jpg" alt="Book 4">
+                <h3>Ea si el</h3>
+                <p>Marc Levy</p>
+            </div>
+        </div>
+    </div>
+
+	<!-- Despre Noi -->
+    <section id="about" class="container">
+        <h2>Despre Noi</h2>
+                <p>
+                    Suntem o echipă de 5 studenți la telecomunicații, exersându-ne skill-urile în programare. 
+                    Ne propunem să oferim acces la o colecție vastă de cărți online, ușor de explorat și accesibilă tuturor.
+                </p>
+				<td>
+                    <img src="imagenoi.jpeg" height="250px" width="400px">
+                </td>
+			</div>
+		</div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Locatie: marti de la 18-20 in kb12</p>
+        <p>Email: UNITBV.RO</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+
+</body>
+</html>

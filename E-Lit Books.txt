@@ -1,0 +1,33 @@
+Studenti:
+Cehan Radu-Andrei
+Ciurdea Florentin
+Dioszegi Andrada-Carmen
+Ratchkovschi Alexandru
+Simirad  Anamaria-Bianca
+
+LABORATOR SOPM
+E-Lit Books
+
+VERSIUNI
+ 1.0.0 - aplicatia in sine
+ 1.1.0 - schimbare minora(1)
+ 1.1.3 - fix(2e)
+ 1.2.0 - schimbare minora(5)
+ 2.0.0 - schimbare majora(3)
+ 2.0.1 - fix(1Bug)
+
+
+IDEI DE VARIANTE
+1. Disponibilitate in magazine
+2. Rezervarea cărților
+3. Cumpararea cartilor pe aplicatie
+4.Carte digitale
+5.Preview al cartilor
+8.Adaugare suport card loialitate
+9.Secțiuni cărți (ex: SF , actiune , romance etc )
+10. Rating carti
+
+BUG
+1. Adaugarea cărților multiple în coș (poți baga în coș DOAR o carte)
+2. Accesarea cărților duce către eroare (din cauza backend-ului firmei)
+3. Nu se încarcă imaginea cărții
